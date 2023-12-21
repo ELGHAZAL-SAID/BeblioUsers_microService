@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
+    <Folder Include="Services\Comon\" />
+    <Folder Include="Services\RolesService\Command\" />
+    <Folder Include="Services\RolesService\Query\" />
+    <Folder Include="Services\UserService\Command\" />
+    <Folder Include="Services\UserService\" />
+    <Folder Include="Services\UserService\Query\" />
   </ItemGroup>
 
 </Project>

@@ -2,7 +2,7 @@
 
 namespace Beblio.infrastructure.Repository
 {
-    internal class GeniricRepository<T> : IRepository<T> where T : class
+    public class GeniricRepository<T> : IRepository<T> where T : class
     {
         public Task DeleteAsync(int id)
         {
